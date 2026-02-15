@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #212121;
+}
+.card{
+    
+    background-color: pink;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.nav{
+    background-color: #aa1414;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
