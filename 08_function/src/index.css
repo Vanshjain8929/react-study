@@ -1,0 +1,18 @@
+*{
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family : 'monospace';
+}
+
+html, body{
+height : 100%;
+width : 100%;
+background-color: rgba(0, 0, 0, 0.563);
+}
+input{
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
