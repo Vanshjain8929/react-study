@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+/* Hide scrollbar but keep scrolling functionality */
+.overflow-auto::-webkit-scrollbar,
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-auto::-webkit-scrollbar-track,
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
