@@ -58,7 +58,7 @@ const App = () => {
             <div>
               <label className="mb-2 block text-sm font-medium text-slate-200">Details</label>
               <textarea
-                className="h-48 w-full resize-none rounded-xl border border-white/15 bg-slate-900/60 px-4 py-3 text-sm font-medium text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/30"
+                className="no-scrollbar h-48 w-full resize-none overflow-y-auto rounded-xl border border-white/15 bg-slate-900/60 px-4 py-3 text-sm font-medium text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/30"
                 placeholder="Write your note details..."
                 value={details}
                 onChange={(e) => {
